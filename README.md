@@ -6,5 +6,6 @@ If you want to clone and adapt the content feel free to do so!
  - npm install
  - npm start
  - you can see your portfolio on http://localhost:3000 on your browser
+# If you want to add something might look cool feel free to do so with a pull-request!
 
 
