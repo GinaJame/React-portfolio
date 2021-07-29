@@ -1,17 +1,18 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { Route } from 'react-router-dom'
 
 import MainPage from './pages/mainPage/mainpage.component';
 import ProjectsPage from './pages/projectsPage/projectspage.components';
-
+import Header from "./components/header/header.component";
 function App() {
   return (
     <div>
       {
-        <Router>
+        <Route>
+          <Header/>
           <Route exact path="/" component={MainPage} />
           <Route exact path="/projects" component={ProjectsPage} />
-        </Router>
+        </Route>
       }
     </div>
   );
