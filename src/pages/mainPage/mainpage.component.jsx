@@ -1,7 +1,4 @@
-  
 import React from 'react';
-
-
 import './mainpage.styles.scss';
 
 const MainPage = () => (
