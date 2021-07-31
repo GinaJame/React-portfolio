@@ -8,7 +8,7 @@ import AboutPage from "./pages/About/aboutpage.component";
 import Header from "./components/header/header.component";
 function App() {
   return (
-    <div>
+    <div class='bodyClass'>
       {
         <Route>
           <Header/>

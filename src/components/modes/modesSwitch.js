@@ -11,6 +11,7 @@ export default function SwitchesGroup() {
 
   const handleChange = (event) => {
     setState({ ...state, [event.target.name]: event.target.checked });
+    document.body.style.backgroundColor = "red";
     console.log(state)
   };
 
