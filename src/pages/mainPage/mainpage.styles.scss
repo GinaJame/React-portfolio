@@ -1,3 +1,9 @@
 .homepage{
     margin:25px;
+    display:flex;
+    flex-direction: row;
+}
+.image{
+    margin:25px;
+    max-width: 350px;
 }
