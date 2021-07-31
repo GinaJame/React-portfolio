@@ -25,10 +25,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Install dependencies
-      run: npm install && curl -s -X POST "${{ secrets.DISCORD_WEBHOOK }}" -d "content=  Install correct!"
-
-    - name: Run the tests
-      run: npm test && curl -s -X POST "${{ secrets.DISCORD_WEBHOOK }}" -d "content=  test correct! :purple_heart:"
+      run: npm install && curl -s -X POST "${{ secrets.DISCORD_WEBHOOK }}" -d "content=  Install correct! :purple_heart:"
 
     - name: Build
       run: npm run build && curl -s -X POST "${{ secrets.DISCORD_WEBHOOK }}" -d "content=  Build correct! :star_struck:"
